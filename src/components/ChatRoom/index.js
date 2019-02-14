@@ -44,6 +44,7 @@ function ChatRoom (props){
                         variant="contained" 
                         color="primary"
                         size="small"
+                        onClick={props.handleSubmit}
                     >Enviar</Button>
                  </MuiThemeProvider>
             </form>
